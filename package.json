@@ -1,6 +1,6 @@
 {
   "name": "oba",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "a cli tool helping you open anything by any app",
   "main": "index.js",
   "scripts": {
