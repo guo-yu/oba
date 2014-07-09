@@ -1,17 +1,31 @@
 ## oba ![npm](https://badge.fury.io/js/oba.png)
 
-a cli tool helping you open anything by any app
+a cli tool helping you open anything by any app. Oba is short of **O**pen **B**y **A**pp.
 
 ### Installation
 ````
-$ [sudo] npm install oba
+$ [sudo] npm install oba -g
 ````
-
 
 ### Example
-````javascript
-var oba = require('oba');
-````
+
+open by apps, with sexy auto-complete function.
+```
+$ oba chrome index.html
+$ oba sublime index.html // hack, hack, hack
+$ oba github . // open github app and commit
+$ oba ps prototype.psd // open photo
+```
+open a file by mutiple apps:
+
+```
+$ oba chrome firefox safari for-style-test.html
+```
+
+set a alisa
+```
+$ oba set ch chrome // set ch => chrome
+```
 
 ### API
 check this file: `index.js`
